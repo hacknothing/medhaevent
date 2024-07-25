@@ -181,7 +181,9 @@ body{
     
 }
 
+/* main ending */
 
+/* footer ending */
 
 .footer {
     width: 100vw;
@@ -192,7 +194,7 @@ body{
 .footer-container {
     display: flex;
     flex-direction: row;
-    margin: 100px;
+    margin: 70px;
     padding: 50px;
     cursor: pointer;
 }
