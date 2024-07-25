@@ -1,10 +1,11 @@
 /* HEADER CSS start */
 body{
-
     height: 80vh;
     width: 99vw;
 }
-
+.header {
+    position: fixed;
+}
 
 .headerfile {
     width: 100%;
@@ -12,8 +13,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: fixed; */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.121);
+    
 }
 
 .block_1 {
@@ -155,4 +156,88 @@ body{
     outline: none;
     border: none;
     border-radius: 15px;
+}
+
+.info {
+    width: 99vw;
+    height: 300px;
+    background-color: #af9082;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 60vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.info_image img{
+   
+    width: 300px;
+    height: 300px;
+    
+}
+
+
+
+.footer {
+    width: 100vw;
+    height: auto;
+    background-color: #252525;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    padding: 50px;
+    cursor: pointer;
+}
+
+.footer-links {
+    margin: 30px;
+}
+
+.footer-info {
+    margin: 30px;
+}
+
+.footer-image {
+    margin-top: -150px;
+    position: relative;
+}
+
+.footer-name {
+    top: 15px;
+    left: 80px;
+    position: absolute;
+}
+
+.fa-map-marker-alt {
+    color: #ff5e14;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fa-phone {
+    color: #ff5e14;
+}
+
+.fa-envelope-open {
+    color: #ff5e14;
+}
+
+.nothing {
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+
+}
+
+.det {
+    width: 100px;
+    margin-right: 100px;
 }
