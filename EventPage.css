@@ -56,18 +56,37 @@ body{
 
 
 /* main */
-.main_content
-{
+.main_content {
     display: flex;
     width: 99vw;
     height: 100vh;
     flex-wrap: wrap;
 
 }
-.events {
+.event_card {
     margin: 30px;
     margin-left: 50px;
     width: 400px;
     height: 400px;
-    background-color: #f4854e;
+    
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.EventImage img {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.EventButton button {
+    background-color: #ee6621;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 150px;
+}
+
+.EventInfo  {
+    display: none;
 }
