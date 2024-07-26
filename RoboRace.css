@@ -27,7 +27,7 @@ html {
     height: 70px;
     display: flex;
     justify-content: space-between;
-   
+    position: fixed;
     box-shadow: 5px 5px 10px black;
 }
 
