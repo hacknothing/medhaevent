@@ -14,6 +14,9 @@ html {
     width: 400px;
     height: 100%;
     padding-top: 25px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
 }
 .navbar a{
     text-decoration: none;
@@ -29,6 +32,7 @@ html {
     justify-content: space-between;
     position: fixed;
     box-shadow: 5px 5px 10px black;
+    background-color: rgb(19, 19, 19);
 }
 
 .clgLogo img{  
@@ -183,3 +187,27 @@ html {
     width: 100px;
     margin-right: 100px;
 }
+
+
+
+
+
+
+/* navbar animation */
+
+
+.navbar a::before {
+    content: "";
+    background-color: #f25100;
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    transition: 1s; 
+    top: 70px  ;
+}
+
+.navbar a:hover::before {
+    width: 80px;
+}
+
+
