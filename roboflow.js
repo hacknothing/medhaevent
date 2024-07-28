@@ -1,1 +1,1 @@
-alert("hellop");
+var len=curs
