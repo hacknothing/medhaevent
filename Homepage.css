@@ -1,7 +1,7 @@
 /* HEADER CSS start */
 body{
     height: 80vh;
-    width: 99vw;
+    width: 97vw;
 }
 
 
@@ -13,6 +13,12 @@ body{
     align-items: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.121);
   
+}
+
+.headerfile img {
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
 }
 
 
